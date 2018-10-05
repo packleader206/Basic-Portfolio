@@ -90,35 +90,95 @@ input[type=text] {
     height: 500px;
 }
 
+/* The layout of the photos on the portfolio page are slightly different 
+    from the example. I did this by design, because it made more sense and 
+    looked better, since it takes up the unused white space (rather than,
+    two across and three down, like in the example)*/
+
 #tempimage1 {
+    position: relative;
     padding: 10px;
     float: left;
-    width: 30%;
+    width: 30%;  
+}
+
+.banner1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 160px;
+    margin-left: 10px;
+    width: 256px;
 }
 
 #tempimage2 {
+    position: relative;
     padding: 10px;
     float: left;
     width: 30%;
+}
+
+.banner2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 160px;
+    margin-left: 306px;
+    width: 256px;
 }
 
 #tempimage3 {
+    position: relative;
     padding: 10px;
     float: left;
     width: 30%;
 }
 
+.banner3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 160px;
+    margin-left: 602px;
+    width: 256px;
+}
+
 #tempimage4 {
+    position: relative;
     padding: 10px;
     clear: both;
     float: left;
     width: 30%;
 }
 
+.banner4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 385px;
+    margin-left: 10px;
+    width: 256px;
+}
+
 #tempimage5 {
+    position: relative;
     padding: 10px;
     float: left;
     width: 30%;
+}
+
+.banner5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 385px;
+    margin-left: 306px;
+    width: 256px;
 }
 
 footer {
@@ -129,4 +189,9 @@ footer {
     height: 40px;
     padding: 20px;
 
+}
+
+textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
